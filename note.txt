@@ -6,4 +6,9 @@ lệnh chạy json sever để có api hiện sản phẩm lên web:
 
 + mở một cmd mới sau đó paste dòng này:
 
--  json-server src/api/product.json -p 2077 
+- json-server src/api/product.json -p 2077 
+
+
+mỗi lần có bản update mới thì dùng câu lệnh:
+
+- git push origin master (trong đó master là tên branch)
