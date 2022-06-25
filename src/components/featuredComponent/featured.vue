@@ -40,7 +40,7 @@ import { mapActions } from "vuex";
 
         },
         mounted(){
-          axios.get('https://fakestoreapi.com/products')
+          axios.get('http://localhost:2077/product')
              .then(response => this.dataProduct=response.data)
           axios.get('https://fakestoreapi.com/products/categories')
              .then(response => this.catalogies=response.data)

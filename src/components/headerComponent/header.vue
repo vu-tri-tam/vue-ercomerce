@@ -41,14 +41,20 @@ import { mapGetters } from 'vuex'
         },
 
         methods:{
-            totalCart(){
-              let total=this.getProduct.reduce((privateElement, nextElement)=>{
-                   return privateElement.totalPrice + nextElement.totalPrice
-                         console.log(privateElement.totalPrice,'total');
-                },0)
-                this.toTalPrice=total
-                // console.log(this.getProduct,'total');
-            }
+              totalCart(){
+                let total=0
+                for(let index = 0; index < this.getProduct.length; index++) {
+                total+= this.getProduct[index].totalPrice
+                    console.log(this.getProduct[index].totalPrice,'dd');
+                    
+                }
+            return total
+        //   let total=this.getProduct.reduce((privateElement, nextElement)=>{
+        //         //    return privateElement.totalPrice + nextElement.totalPrice
+        //                  console.log(privateElement,'total');
+        //         },0)
+        // // console.log(this.getProduct[0].totalPrice);
+    }
         }
         
     }
@@ -63,7 +69,7 @@ import { mapGetters } from 'vuex'
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+                                <li><i class="fa fa-envelope"></i> leduy@gmail.com</li>
                                 <li>Free Shipping for all Order of $99</li>
                             </ul>
                         </div>
@@ -110,13 +116,13 @@ import { mapGetters } from 'vuex'
                                     <li>
                                         <router-link to="/product-detail">Detail product</router-link>
                                     </li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                                    <li><a href="">Shoping Cart</a></li>
                                     <li>  <router-link to="/check-out">Checkout product</router-link></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -126,7 +132,7 @@ import { mapGetters } from 'vuex'
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><router-link to="/shopping-cart"><i class="fa fa-shopping-bag"></i> <span>{{getProduct.length}}</span></router-link></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$</span></div>
+                        <div class="header__cart__price">item: <span>${{totalCart()}}</span></div>
                     </div>
                 </div>
             </div>

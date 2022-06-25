@@ -26,7 +26,7 @@ import { notify } from "@kyvg/vue3-notification";
             }
         },
         mounted(){
-          axios.get(`https://fakestoreapi.com/products/${this.$route.params.id}`)
+          axios.get(`http://localhost:2077/product/${this.$route.params.id}`)
             .then(res=>this.productById=res.data).then((res)=>{
                 window.scrollTo(0, 350)
             })
@@ -109,7 +109,7 @@ import { notify } from "@kyvg/vue3-notification";
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-half-o"></i>
-                            <span>(18 reviews)</span>
+                            <span>({{this.productById.view}} reviews)</span>
                         </div>
                         <div class="product__details__price">${{this.productById.price}}</div>
                         <p>{{this.productById.description}}</p>

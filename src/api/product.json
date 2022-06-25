@@ -1,0 +1,345 @@
+
+{
+    "product": [
+        {
+            "id":1,
+            "title":"Aó thun trắng",
+            "price":234,
+            "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18-ver64-0020987/2b79bcde-eee6-5700-2135-00191a8873a2.jpg?w=540&h=756&c=true",
+            "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Nam",
+            "view":28
+    
+        },
+        {
+            "id":2,
+            "title":"Aó thun đen",
+            "price":934,
+            "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18-ver65-0020988/3683cc4d-d6d0-2c00-7e8f-00191a874989.jpg?w=540&h=756&c=true",
+            "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Nam",
+            "view":48
+    
+        },
+        {
+            "id":3,
+            "title":"Aó thun sọc trắng",
+            "price":734,
+            "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-linh-vat-tigeer-ver6-0021143/6f592a9d-c3dc-b500-b003-001931348a84.jpg?w=540&h=756&c=true",
+            "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Nam",
+            "view":18
+    
+        },
+        {
+            "id":4,
+            "title":"Aó khoác tay dài",
+            "price":334,
+            "image":"https://cdn2.yame.vn/pimg/ao-khoac-hoodie-on-gian-y-nguyen-ban-ver19-0020995/a72abba7-8d99-0d00-3e37-001926f68a1b.jpg?w=540&h=756&c=true",
+            "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Nam",
+            "view":38
+    
+        },
+        {
+            "id":5,
+            "title":"Aó khoác versity nguyên bản",
+            "price":434,
+            "image":"https://cdn2.yame.vn/pimg/ao-khoac-varsity-y-nguyen-ban-18-ver30-0020825/e3428348-9652-e300-b6e4-00193136edea.jpg?w=540&h=756&c=true",
+            "description":"Aó thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Nam",
+            "view":98
+    
+        },
+        {
+            "id":6,
+            "title":"Quan_Nam đen",
+            "price":134,
+            "image":"https://cdn2.yame.vn/pimg/quan-jean-slimfit-y2010-b42-0019772/82cab467-4480-0c00-e875-001883b1a99d.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Quan_Nam",
+            "view":108
+    
+        },
+        {
+            "id":7,
+            "title":"Quần jean Nam",
+            "price":534,
+            "image":"https://cdn2.yame.vn/pimg/quan-dai-jean-slimfit-toi-gian-m7-0020891/5486951c-5807-9000-b8bf-00191a895eef.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Quan_Nam",
+            "view":108
+    
+        },
+        {
+            "id":8,
+            "title":"Quần thun Nam",
+            "price":664,
+            "image":"https://cdn2.yame.vn/pimg/quan-tay-y2010-hg10-0019773/93df77d3-2771-2200-ee72-0018b9fac4c5.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Quan_Nam",
+            "view":3
+    
+        },
+        {
+            "id":9,
+            "title":"Quần thể thao Nam",
+            "price":864,
+            "image":"https://cdn2.yame.vn/pimg/quan-dai-jogger-on-gian-y-nguyen-ban-ver9-0020733/75c198df-3121-3400-bbf2-001925857575.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Quan_Nam",
+            "view":10
+    
+        },
+        {
+            "id":10,
+            "title":"Quần thun ngắn trắng",
+            "price":264,
+            "image":"https://cdn2.yame.vn/pimg/quan-short-on-gian-y-nguyen-ban-ver9-0020801/913af5c2-9c0f-0100-7fac-001925843072.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Quan_Nam",
+            "view":14
+    
+        },
+        {
+            "id":10,
+            "title":"Quần thun ngắn đen",
+            "price":264,
+            "image":"https://cdn2.yame.vn/pimg/quan-lot-boxer-y2010-du-m5-0020895/dfd13763-4a97-1b00-36ed-00192734843f.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Quan_Nam",
+            "view":13
+    
+        },
+        {
+            "id":11,
+            "title":"Aó thun ngắn sọc",
+            "price":264,
+            "image":"https://cdn2.yame.vn/pimg/so-mi-co-danton-y-nguyen-ban-18-ver20-0020896/a821707a-659c-9b00-10fc-00192b108249.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Thun_Nam",
+            "view":11
+    
+        },
+        {
+            "id":12,
+            "title":"Aó thun ngắn vệt",
+            "price":264,
+            "image":"https://cdn2.yame.vn/pimg/so-mi-tay-ngan-than-co-ai-horus-ver1-0020396/20f13a62-de80-f500-7413-0018ac669568.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Thun_Nam",
+            "view":11
+    
+        },
+        {
+            "id":13,
+            "title":"Aó thun ngắn bambo",
+            "price":234,
+            "image":"https://cdn2.yame.vn/pimg/so-mi-co-danton-ngan-ha-space-ver2-0020474/fe865a7b-9a08-9700-23fb-0018ac62ca93.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Thun_Nam",
+            "view":11
+    
+        },
+        {
+            "id":14,
+            "title":"Aó thun cam cổ tròn",
+            "price":234,
+            "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18--ver51-0020967/b1f6fb11-1d61-c100-5cc2-00192b14bec9.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Thun_Nam",
+            "view":11
+    
+        },
+        {
+            "id":15,
+            "title":"Aó thun ngắn sọc cam",
+            "price":274,
+            "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18--ver50-0021023/16b58eb7-967a-d400-11c1-00192b158618.jpg?w=540&h=756&c=true",
+            "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+            "category":"Ao_Thun_Nam",
+            "view":11
+    
+        }
+    ],
+    "category":[
+        {
+            "id":1,
+            "Ao_Nam":[
+                {
+                    "id":1,
+                    "title":"Aó thun trắng",
+                    "price":234,
+                    "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18-ver64-0020987/2b79bcde-eee6-5700-2135-00191a8873a2.jpg?w=540&h=756&c=true",
+                    "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Nam",
+                    "view":28
+            
+                },
+                {
+                    "id":2,
+                    "title":"Aó thun đen",
+                    "price":934,
+                    "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18-ver65-0020988/3683cc4d-d6d0-2c00-7e8f-00191a874989.jpg?w=540&h=756&c=true",
+                    "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Nam",
+                    "view":48
+            
+                },
+                {
+                    "id":3,
+                    "title":"Aó thun sọc trắng",
+                    "price":734,
+                    "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-linh-vat-tigeer-ver6-0021143/6f592a9d-c3dc-b500-b003-001931348a84.jpg?w=540&h=756&c=true",
+                    "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Nam",
+                    "view":18
+            
+                },
+                {
+                    "id":4,
+                    "title":"Aó khoác tay dài",
+                    "price":334,
+                    "image":"https://cdn2.yame.vn/pimg/ao-khoac-hoodie-on-gian-y-nguyen-ban-ver19-0020995/a72abba7-8d99-0d00-3e37-001926f68a1b.jpg?w=540&h=756&c=true",
+                    "description":"Aó thun thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Nam",
+                    "view":38
+            
+                },
+                {
+                    "id":5,
+                    "title":"Aó khoác versity nguyên bản",
+                    "price":434,
+                    "image":"https://cdn2.yame.vn/pimg/ao-khoac-varsity-y-nguyen-ban-18-ver30-0020825/e3428348-9652-e300-b6e4-00193136edea.jpg?w=540&h=756&c=true",
+                    "description":"Aó thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Nam",
+                    "view":98
+            
+                }
+            ]
+        },   {
+            "id":2,
+            "Ao_thun_Nam":[
+                {
+                    "id":1,
+                    "title":"Aó thun ngắn sọc",
+                    "price":264,
+                    "image":"https://cdn2.yame.vn/pimg/so-mi-co-danton-y-nguyen-ban-18-ver20-0020896/a821707a-659c-9b00-10fc-00192b108249.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Thun_Nam",
+                    "view":11
+            
+                },
+                {
+                    "id":2,
+                    "title":"Aó thun ngắn vệt",
+                    "price":264,
+                    "image":"https://cdn2.yame.vn/pimg/so-mi-tay-ngan-than-co-ai-horus-ver1-0020396/20f13a62-de80-f500-7413-0018ac669568.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Thun_Nam",
+                    "view":11
+            
+                },
+                {
+                    "id":3,
+                    "title":"Aó thun ngắn bambo",
+                    "price":234,
+                    "image":"https://cdn2.yame.vn/pimg/so-mi-co-danton-ngan-ha-space-ver2-0020474/fe865a7b-9a08-9700-23fb-0018ac62ca93.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Thun_Nam",
+                    "view":11
+            
+                },
+                {
+                    "id":4,
+                    "title":"Aó thun cam cổ tròn",
+                    "price":234,
+                    "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18--ver51-0020967/b1f6fb11-1d61-c100-5cc2-00192b14bec9.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Thun_Nam",
+                    "view":11
+            
+                },
+                {
+                    "id":5,
+                    "title":"Aó thun ngắn sọc cam",
+                    "price":274,
+                    "image":"https://cdn2.yame.vn/pimg/ao-thun-co-tron-y-nguyen-ban-18--ver50-0021023/16b58eb7-967a-d400-11c1-00192b158618.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Ao_Thun_Nam",
+                    "view":11
+            
+                }
+            ]
+        },
+        {
+            "id":3,
+            "Quan_Nam":[
+                {
+                    "id":1,
+                    "title":"Quan_Nam đen",
+                    "price":134,
+                    "image":"https://cdn2.yame.vn/pimg/quan-jean-slimfit-y2010-b42-0019772/82cab467-4480-0c00-e875-001883b1a99d.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Quan_Nam",
+                    "view":108
+            
+                },
+                {
+                    "id":2,
+                    "title":"Quần jean Nam",
+                    "price":534,
+                    "image":"https://cdn2.yame.vn/pimg/quan-dai-jean-slimfit-toi-gian-m7-0020891/5486951c-5807-9000-b8bf-00191a895eef.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Quan_Nam",
+                    "view":108
+            
+                },
+                {
+                    "id":3,
+                    "title":"Quần thun Nam",
+                    "price":664,
+                    "image":"https://cdn2.yame.vn/pimg/quan-tay-y2010-hg10-0019773/93df77d3-2771-2200-ee72-0018b9fac4c5.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Quan_Nam",
+                    "view":3
+            
+                },
+                {
+                    "id":4,
+                    "title":"Quần thể thao Nam",
+                    "price":864,
+                    "image":"https://cdn2.yame.vn/pimg/quan-dai-jogger-on-gian-y-nguyen-ban-ver9-0020733/75c198df-3121-3400-bbf2-001925857575.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Quan_Nam",
+                    "view":10
+            
+                },
+                {
+                    "id":5,
+                    "title":"Quần thun ngắn trắng",
+                    "price":264,
+                    "image":"https://cdn2.yame.vn/pimg/quan-short-on-gian-y-nguyen-ban-ver9-0020801/913af5c2-9c0f-0100-7fac-001925843072.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Quan_Nam",
+                    "view":14
+            
+                },
+                {
+                    "id":6,
+                    "title":"Quần thun ngắn đen",
+                    "price":264,
+                    "image":"https://cdn2.yame.vn/pimg/quan-lot-boxer-y2010-du-m5-0020895/dfd13763-4a97-1b00-36ed-00192734843f.jpg?w=540&h=756&c=true",
+                    "description":"thời trang mới nhất 2022, được thiết kế bởi chúng tôi, nhà thiết kế chuyên gia nhất của hãng đề xuất ra sản phẩm có 1 không 2 này.",
+                    "category":"Quan_Nam",
+                    "view":13
+            
+                }
+            ]
+    
+        
+        
+        
+    }
+]
+}

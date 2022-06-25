@@ -1,0 +1,9 @@
+nếu chưa có json sever thì cài
+- npm install -g json-server
+
+
+lệnh chạy json sever để có api hiện sản phẩm lên web:
+
++ mở một cmd mới sau đó paste dòng này:
+
+-  json-server src/api/product.json -p 2077 

@@ -56,8 +56,8 @@
                     <div class="shoping__continue">
                         <div class="shoping__discount">
                             <h5>Discount Codes</h5>
-                            <form action="#">
-                                <input type="text" placeholder="Enter your coupon code">
+                            <form @submit="checkCounpon">
+                                <input type="text" placeholder="Enter your coupon code" @input="this.checkEmtyCoupon= $event.target.value">
                                 <button type="submit" class="site-btn">APPLY COUPON</button>
                             </form>
                         </div>
@@ -81,8 +81,13 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import { notify } from "@kyvg/vue3-notification";
 export default {
-
+data(){
+return{
+    checkEmtyCoupon:null
+}
+},
   methods:{
     handleLimitString(str){
       let stringLimit 
@@ -104,6 +109,40 @@ export default {
         //                  console.log(privateElement,'total');
         //         },0)
         // // console.log(this.getProduct[0].totalPrice);
+    },
+    checkCounpon(e){
+       e.preventDefault();
+      if(this.checkEmtyCoupon !== null){
+         notify({
+            type: 'success',
+            // (optional, override)
+            // Time (in ms) to keep the notification on screen
+            duration: 1000,
+            animation:"velocity",
+
+            // (optional, override)
+            // Time (in ms) to show / hide notifications
+            speed: 1000,
+            title: "Successfully",
+            text: "save coupoin successfully",
+            });
+      }else{
+         notify({
+            type: 'error',
+
+    // (optional, override)
+    // Time (in ms) to keep the notification on screen
+            duration: 1000,
+            animation:"velocity",
+
+            // (optional, override)
+            // Time (in ms) to show / hide notifications
+            speed: 1000,
+            title: "Error",
+            text: "please check coupoin and again",
+            });
+      }
+       
     }
   },
   computed:{

@@ -10,7 +10,7 @@
     export default {
         data() {
             return {
-                dataImg: "/img/banner/banner-1.jpg"
+                dataImg: "https://cmsv2.yame.vn/uploads/3fa011bc-6754-4298-943e-710411278b3f/thumbmobanaothun1.jpg?quality=80&w=700&h=0"
             }
         }
        
@@ -68,9 +68,9 @@
                     <div class="hero__item set-bg" :data-setbg="dataImg">
                     <!-- <img :src="dataImg" alt=""> -->
                         <div class="hero__text">
-                            <span>FRUIT FRESH</span>
+                            <!-- <span>FRUIT FRESH</span>
                             <h2>Vegetable <br />100% Organic</h2>
-                            <p>Free Pickup and Delivery Available</p>
+                            <p>Free Pickup and Delivery Available</p> -->
                             <a href="#" class="primary-btn">SHOP NOW</a>
                         </div>
                     </div>
