@@ -165,7 +165,8 @@
     "category":[
         {
             "id":1,
-            "Ao_Nam":[
+            "name_cate":"Áo Nam",
+            "data":[
                 {
                     "id":1,
                     "title":"Aó thun trắng",
@@ -219,7 +220,8 @@
             ]
         },   {
             "id":2,
-            "Ao_thun_Nam":[
+            "name_cate":"Aó Thun Nam",
+            "data":[
                 {
                     "id":1,
                     "title":"Aó thun ngắn sọc",
@@ -274,7 +276,8 @@
         },
         {
             "id":3,
-            "Quan_Nam":[
+            "name_cate":"Quần Nam",
+            "data":[
                 {
                     "id":1,
                     "title":"Quan_Nam đen",
