@@ -11,4 +11,4 @@ lệnh chạy json sever để có api hiện sản phẩm lên web:
 
 mỗi lần có bản update mới thì dùng câu lệnh:
 
-- git push origin master (trong đó master là tên branch)
+- git fetch origin master (trong đó master là tên branch)
