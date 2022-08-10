@@ -1,5 +1,6 @@
 <script setup>
 import { mapGetters } from 'vuex'
+import Modal from './modal.vue'
 
     defineProps({
     // msg: {
@@ -10,34 +11,25 @@ import { mapGetters } from 'vuex'
 </script>
 <script>
     export default {
-    
         data() {
-            
             // nơi chứa giống state bên reactJS
-            return {
-                count: 0,
-                user: "",
-                password:"",
-                dataInput:[],
-                textClass:true,
-                dataX:"",
-                productById:'',
-                quantity:0,
-                valueQuantity:0,
-                dataCart:[],
-                toTalPrice:0
-                
-                
+            return {    
+                showModal: false,   
             }
         },
         computed:{
             handleCart(){
                 this.valueQuantity
             },
+            handleShowModal(){
+                this.showModal = true
+                console.log('vo day');
+            },
               handleAddCart(){
                this.dataCart.push(this.productById)
             },
-             ...mapGetters(['getProduct'])
+             ...mapGetters(['getProduct']),
+             ...mapGetters(['getUserLogin']),
         },
 
         methods:{
@@ -61,7 +53,23 @@ import { mapGetters } from 'vuex'
 </script>
 
 <template>
+
   <div class="header-container">
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button> -->
+
+    <transition name="modal">
+    <Modal v-if="showModal" @close="showModal = false">
+      <!--
+        you can use custom content here to overwrite
+        default content
+      -->
+      <template v-slot:header>
+        <h3>Đăng nhập</h3>
+      </template>
+    </Modal>
+  </transition>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -91,8 +99,8 @@ import { mapGetters } from 'vuex'
                                     <li><a href="#">English</a></li>
                                 </ul>
                             </div>
-                            <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                            <div class="header__top__right__auth">  
+                                <a href="#" @click="showModal = !showModal"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>

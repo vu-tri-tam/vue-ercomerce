@@ -4,6 +4,7 @@ export default {
     },
     updateCart({ idProduct }) {
         idProduct()
-    }
+    },
+    // userLogin(){}
 
 }

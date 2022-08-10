@@ -69,6 +69,7 @@ import { notify } from "@kyvg/vue3-notification";
         ,
         methods:{
            ...mapActions(['addToCart']),
+           ...mapActions(['addUser']),
             // ...mapActions(['addQuantity'])
         }
        
